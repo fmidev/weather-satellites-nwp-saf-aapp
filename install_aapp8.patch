@@ -1,0 +1,14 @@
+90,91c90,91
+< STATION=exeter    #change as required
+< SITE_ID=UKM       #change as required
+---
+> STATION=helsinki    #change as required
+> SITE_ID=FMI       #change as required
+99c99
+< INSTALL=$TOP/install
+---
+> INSTALL=/opt
+610c610
+<   zipfile=kai-1.12.zip
+---
+>   zipfile=kai_1_12_e8b74685d1.zip
