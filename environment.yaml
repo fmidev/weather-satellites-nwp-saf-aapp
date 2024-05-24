@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+dependencies:
+  - netifaces
+  - pip
+  - pip:
+    - aapp-runner==0.11.0
+    - posttroll==1.11.0
+  - pyyaml
+  - pyzmq
+  - setuptools
+  - setuptools_scm
+  - setuptools_scm_git_archive
+  - trollsift
+  - zeromq
