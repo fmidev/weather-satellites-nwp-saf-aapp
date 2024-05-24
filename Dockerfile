@@ -22,7 +22,7 @@ RUN rm /usr/bin/gcc && ln -s /usr/bin/gcc-9 /usr/bin/gcc
 
 # Patch the original installation script
 RUN cd /tmp && \
-    patch install_aapp8.sh install_aaoo8.patch
+    patch install_aapp8.sh install_aapp8.patch
 # Install HDF5
 RUN cd /tmp && \
     ./install_aapp8.sh 1
