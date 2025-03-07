@@ -1,7 +1,6 @@
 channels:
   - conda-forge
 dependencies:
-  - git
   - netifaces
   - pip
   - pip:
